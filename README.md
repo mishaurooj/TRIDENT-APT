@@ -1,14 +1,5 @@
 # TRIDENT-APT
 ### Agentic Multi-View Continual Learning Framework for Generalized Advanced Persistent Threat Detection
-
-<p align="center">
-  <img src="trident_apt_architecture.png" width="900">
-</p>
-
-<p align="center">
-<b>Official implementation, datasets, trained models, and experimental results of TRIDENT-APT</b>
-</p>
-
 ---
 
 ## Overview
