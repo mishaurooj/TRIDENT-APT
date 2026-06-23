@@ -1,5 +1,5 @@
 # TRIDENT-APT
-### Agentic Multi-View Continual Learning Framework for Generalized Advanced Persistent Threat Detection
+### Agentic-TRIDENT-LLM: A Multi-Agent Multi-View Framework for Cross-Domain APT Detection
 ---
 
 ## Overview
