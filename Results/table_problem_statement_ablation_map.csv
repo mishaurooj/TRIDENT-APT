@@ -1,0 +1,8 @@
+Problem statement challenge,Ablation/Experiment,Expected evidence,Paper claim supported
+Heterogeneous telemetry schemas,remove domain branch,drop in cross-domain F1/MCC,domain-aware fusion handles multi-source cyber data
+Loss of semantic cyber context,remove text/LLM branch,drop in AUC-PR and Recall@1%FPR,row-to-text semantic encoding adds detection signal
+Weak threat-evidence representation,remove keyword/RAG evidence branch,lower precision and explanation evidence,threat evidence features improve analyst-facing detection
+Online drift and temporal shift,remove drift/temporal proxy + stress tests,larger degradation under shifted test,drift-aware branch improves robustness
+Imbalanced cyber attacks,remove focal loss / balanced training,"lower recall, AUC-PR, MCC",imbalance-aware optimization improves rare attack detection
+Deployment constraint,EdgeTiny vs full model,latency/parameter reduction with acceptable AUC-PR,model supports edge deployment trade-offs
+Anomaly signal missing in supervised labels,remove reconstruction head,drop in MCC and robustness,auxiliary reconstruction improves anomaly representation
